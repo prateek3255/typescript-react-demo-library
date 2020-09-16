@@ -1,0 +1,10 @@
+{
+  "name": "typescript-react-test",
+  "version": "1.0.0",
+  "description": "Learning how to create React modules using TypeScript!",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
