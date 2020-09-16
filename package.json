@@ -4,6 +4,9 @@
   "description": "Learning how to create React modules using TypeScript!",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
     "typescript": "^4.0.2"
   }
