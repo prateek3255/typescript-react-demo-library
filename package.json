@@ -9,7 +9,8 @@
   "scripts": {
     "build": "yarn build:esm && yarn build:cjs",
     "build:esm": "tsc",
-    "build:cjs": "tsc --module commonjs --outDir lib/cjs"
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs",
+    "prepublishOnly": "yarn build"
   },
   "peerDependencies": {
     "react": "^16.0.0",
@@ -21,5 +22,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "typescript": "^4.0.2"
-  }
+  },
+  "files": [
+    "/lib"
+  ]
 }
